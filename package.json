@@ -1,0 +1,25 @@
+{
+  "name": "rag-query-optimizer",
+  "version": "1.0.0",
+  "description": "Automatically analyzes RAG pipeline retrieval results and generates optimized query refinement suggestions to improve answer relevance.",
+  "main": "scripts/main.js",
+  "bin": {
+    "rag-optimizer": "scripts/main.js"
+  },
+  "scripts": {
+    "start": "node scripts/main.js",
+    "test": "node --test scripts/*.test.js",
+    "analyze": "node scripts/main.js analyze"
+  },
+  "keywords": [
+    "rag",
+    "query-optimization",
+    "retrieval",
+    "nlp",
+    "search"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

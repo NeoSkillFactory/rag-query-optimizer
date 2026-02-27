@@ -1,0 +1,45 @@
+{
+  "query": "How does retrieval augmented generation improve LLM responses?",
+  "results": [
+    {
+      "document": "Retrieval-Augmented Generation (RAG) is a technique that enhances large language model outputs by retrieving relevant documents from a knowledge base before generating a response. This approach grounds the model's answers in factual, up-to-date information.",
+      "score": 0.92,
+      "metadata": {
+        "source": "docs/rag-overview.md",
+        "chunk_id": 1
+      }
+    },
+    {
+      "document": "LLMs can hallucinate facts when operating purely from parametric knowledge. By augmenting generation with retrieved context, RAG systems significantly reduce hallucination rates and improve factual accuracy.",
+      "score": 0.87,
+      "metadata": {
+        "source": "docs/rag-benefits.md",
+        "chunk_id": 3
+      }
+    },
+    {
+      "document": "Vector databases like Pinecone and Weaviate enable efficient similarity search for RAG pipelines. Documents are embedded into high-dimensional vectors and indexed for fast nearest-neighbor retrieval.",
+      "score": 0.61,
+      "metadata": {
+        "source": "docs/vector-databases.md",
+        "chunk_id": 7
+      }
+    },
+    {
+      "document": "Fine-tuning language models on domain-specific data is an alternative to RAG for improving response quality. However, fine-tuning requires significant computational resources and training data.",
+      "score": 0.45,
+      "metadata": {
+        "source": "docs/fine-tuning-guide.md",
+        "chunk_id": 2
+      }
+    },
+    {
+      "document": "Prompt engineering techniques such as chain-of-thought reasoning and few-shot examples can improve LLM outputs without external retrieval mechanisms.",
+      "score": 0.32,
+      "metadata": {
+        "source": "docs/prompt-engineering.md",
+        "chunk_id": 5
+      }
+    }
+  ]
+}

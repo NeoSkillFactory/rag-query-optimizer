@@ -1,0 +1,14 @@
+{
+  "relevanceThreshold": 0.7,
+  "maxSuggestions": 5,
+  "techniques": [
+    "synonym_expansion",
+    "query_decomposition",
+    "context_refinement"
+  ],
+  "scoring": {
+    "lowScoreThreshold": 0.4,
+    "highScoreThreshold": 0.85,
+    "varianceThreshold": 0.15
+  }
+}
