@@ -57,8 +57,6 @@ node scripts/main.js analyze results.json --format json
 
 Source code: [github.com/NeoSkillFactory/rag-query-optimizer](https://github.com/NeoSkillFactory/rag-query-optimizer)
 
-**Price suggestion:** $49 USD
-
 ## License
 
 MIT © NeoSkillFactory
